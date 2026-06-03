@@ -5,7 +5,7 @@ export default function Skill(){
 
   const config={
 
-    line1:'Languages : C Sharp , Javascript,HTML,CSS,SQL.',
+    line1:'Languages : C Sharp , Javascript,HTML,CSS,SQL,ReactJs.',
     line2:'Framework : ASP.NET core ,Entity Framework.',
     line3:'Databases : SQL server,MYSQL,Cosmos DB.',
     line4:'Experience in working with operating systems',
