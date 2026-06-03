@@ -4,7 +4,7 @@ export default function About(){
  
   const config={
 
-       line1:'Hi, Im sanjay a skilled software developer with around 1 year of',
+       line1:'Hi, Im sanjay a skilled software developer with around 1 year and 2 months of',
        line2:'professional experience in developing web',
        line3:'applications using C#,JavaScript,HTML,CSS,Reactjs and',
        line4:'Cosmos DB.',
