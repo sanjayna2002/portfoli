@@ -23,7 +23,7 @@ export default function About(){
  
     return<section  id='about' className='flex flex-col md:flex-row bg-secondary px-5'>
         <div className='py-5 md:w-1/2'>
-       <img src={PictureImg} />
+       <img src={PictureImg} alt="About me" />
         </div>
         <div className=' md: w-1/2 md:flex-row flex-col flex justify-center py-8'>
         <div className='flex flex-col justify-center'>

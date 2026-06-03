@@ -25,6 +25,10 @@ return <section className='flex flex-col md:flex-row px-5 py-32 bg-primary justi
     </div>
     </div>
     
-    <img className=' md:w-1/3' src={DevloperImg} /> 
+<img
+  className='md:w-1/3'
+  src={DevloperImg}
+  alt="Sanjay - Full Stack Developer"
+/>    
 </section>
 }
