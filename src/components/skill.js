@@ -13,10 +13,10 @@ export default function Skill(){
     line6:'Familiar with visual studio and Web API.',
     line7:'Familiar with Git and Github.'
   }
-    return<section className="bg-secondary justify-center">
+    return<section className="bg-white justify-center">
         <div className="py-8 text-center">
-        <h1 className="text-white text-4xl py-6 ">My skills</h1>
-      <div className=" text-white py-4">
+        <h1 className="text-black text-4xl py-6 ">My skills</h1>
+      <div className=" text-black py-4">
 
                                  <p>{config.line1}</p><br/>
                                  <p>{config.line2}</p><br/>

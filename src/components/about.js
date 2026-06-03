@@ -21,14 +21,14 @@ export default function About(){
 
   }
  
-    return<section  id='about' className='flex flex-col md:flex-row bg-secondary px-5'>
+    return<section  id='about' className="flex min-h-[calc(100dvh-3.5rem)] w-full items-center bg-white px-5 py-12 md:px-8">
         <div className='py-5 md:w-1/2'>
        <img src={PictureImg} alt="About me" />
         </div>
         <div className=' md: w-1/2 md:flex-row flex-col flex justify-center py-8'>
         <div className='flex flex-col justify-center'>
-         <h1 className='text-4xl border-primary text-white border-b-4 mb-5 w-[170px]  font-bold'>About me</h1>
-         <div className='text-white py-4'>
+         <h1 className='text-4xl border-primary text-black border-b-4 mb-5 w-[170px]  font-bold'>About me</h1>
+         <div className='text-black py-4'>
          <p >{config.line1}</p>
                                      <p>{config.line2} </p>
                                      <p>{config.line3} </p>

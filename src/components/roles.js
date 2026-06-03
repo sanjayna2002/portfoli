@@ -11,10 +11,10 @@ export default function Roles(){
     line7:'Developed a reusable multi file upload module ',
     line8:'one can upload different types of files.'
   }
-    return<section className="bg-secondary justify-center">
+    return<section id='roles' className="flex min-h-[calc(120dvh-3.5rem)] w-full items-center bg-white px-5 py-12 md:px-8 justify-center">
     <div>
-    <h1 className="text-white text-4xl px-4 py-8 text-center">Roles and Responsibilities</h1>
-  <div className="text-center text-white py-6">
+    <h1 className="text-black text-4xl px-4 py-12 text-center">Roles and Responsibilities</h1>
+  <div className="text-center text-black py-12">
     
   <p>{config.line1}</p>
   <p> {config.line2}</p>

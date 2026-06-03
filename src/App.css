@@ -2,28 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-header ul li{
-    @apply px-2;
+/* Portfolio palette — indigo brand, deep navy alternate sections */
+:root {
+  --color-primary: #5b57e8;
+  --color-secondary: #1a1838;
+  --color-accent: #818cf8;
 }
 
-.bg-primary{
-    background: rgb(85 81 227);
-}
-.bg-secondary{
-    background: #2b2d77;
+header nav ul li {
+  @apply px-2;
 }
 
-.mobile-nav{
-    @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4;
+.bg-primary {
+  background-color: var(--color-primary);
 }
 
-.mobile-nav  li{
-
-    @apply w-full h-full text-center border-b-2;
-
+.bg-secondary {
+  background-color: var(--color-secondary);
 }
 
-html{
-     
-    scroll-behavior: smooth;
+.border-primary {
+  border-color: var(--color-accent);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.mobile-nav {
+  @apply fixed left-0 top-14 w-full border-t border-white/10 shadow-lg;
+  background-color: var(--color-secondary);
+}
+
+.mobile-nav li {
+  @apply w-full border-b border-white/10 text-center;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -8,10 +8,10 @@ export default function Contact(){
     line2:'8838021190.'
   }
 
-    return<section id='contact' className="bg-primary justify-center">
+    return<section id='contact' className="flex min-h-[calc(100dvh-3.5rem)] w-full items-center bg-white px-5 py-12 md:px-8 justify-center">
     <div>
-    <h1 className="text-white text-4xl px-4 py-4 text-center">Contact</h1>
-  <div className="text-center text-white py-4">
+    <h1 className="text-black text-4xl px-4 py-4 text-center">Contact</h1>
+  <div className="text-center text-black py-4">
    <p className="py-4">
     IF you want to discuss more in details,please contact more
    </p>
