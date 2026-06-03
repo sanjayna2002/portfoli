@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/about';
 import Builderbook from './components/builderbook';
+import TaxBundle from './components/taxbundle';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Header from './components/header';
@@ -20,6 +21,7 @@ function App() {
      <Workexp/>
      <Skill/>
      <Builderbook/>
+     <TaxBundle/>
      <Roles/>
      <Contact/>
      <Footer/>

@@ -1,6 +1,6 @@
 export default function Workexp(){
      const config={
-        line1:'A skilled software developer around 6 month of experience',
+        line1:'A skilled software developer around 1 year and 2 month of experience',
         line2:'in Galominds technologies.'
      }
     return<section id='skill'className='flex flex-col md:flex-row bg-primary px-5 py-8'>
